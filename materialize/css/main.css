@@ -1,0 +1,91 @@
+head{
+  overflow: hidden;
+}
+.content{
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.imf1 {
+  position: fixed;
+  transform: translateX(-7.8%);
+  z-index: -1;
+}
+
+nav {
+  width: 86.6%;
+}
+
+nav .brand-logo {
+  font-size: 1.7rem;
+}
+
+nav ul a {
+  margin: 0 15px;
+  padding: 0;
+  height: 4px;
+  font-size: 12.6px;
+  line-height: 0;
+  font-weight: 300;
+}
+
+h6 {
+  font-size: 1.45rem;
+}
+
+.divv {
+  padding-top: 5%;
+}
+
+.btn-large {
+  border-radius: 40px;
+  border-color: #e91e63;
+  font-size: 13px;
+  line-height: 1.6;
+  padding: 15px 40px;
+}
+.sectiona{
+  padding: 90px 10px;
+}
+.btn-large1:hover,.activebl{
+  background-color: #e91e63 !important;
+  border-color: #e91e63 ;
+}
+
+.btn-large2:hover,.activebl{
+  border-color: #e91e63 !important;
+  background-color: #e91e63 !important;
+  color: #e0e0e0 !important;
+}
+
+.btn smally {
+  padding: 8px 40px;
+}
+
+.acolor {
+  border-radius: 40px;
+  transition: all .15s 0s linear;
+}
+
+.acolor:hover, .activea {
+  color: #e91e63 !important;
+  border-color: #e91e63 !important;
+}
+
+header nav>div>div:nth-child(3)>ul>li:nth-child(1) {
+  position: relative;
+  top: 33px;
+}
+div:nth-child(4){
+  position: relative;
+}
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    left: 50%;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
