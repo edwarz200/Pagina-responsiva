@@ -6,50 +6,136 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="msapplication-TileImage" content="img/fancybox_loading.gif">
     <link rel="stylesheet" href="materialize/css/materialize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="materialize/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Sedna-A Free HTML5/CSS3 website</title>
-    <img src="img/hero-min.jpg" align="right" class="imf1"/>
 </head>
 <body>
-    <header>
-        <nav class="transparent z-depth-0 navigation">
-            <div class="valign-wrapper row section">
-                <a href="" class=" nav-wrapper brand-logo col xl1 m2 s1 center-align"><img src="img/sedna-logo.png" alt=""></a>
-                <div class="nav-wrapper col xl4 m5 s4">
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a class="grey-text text-lighten-2 acolor  N/A transparent" href="">FEATURES</a></li>
-                        <li><a class="grey-text text-lighten-2 acolor  N/A transparent" href="">ASSETS</a></li>
-                        <li><a class="grey-text text-lighten-2 acolor  N/A transparent" href="">BLOG</a></li>
-                        <li><a class="grey-text text-lighten-2 acolor  N/A transparent" href="">DOWNLOAD</a></li>
+    <div>
+        <header class="imgfondo">
+            <nav class="transparent z-depth-0">
+                <div class="valign-wrapper row section">
+                    <a href="" class="nav-wrapper brand-logo col xl1 s12 left-align"><img src="assets/sedna-logo.png" alt=""></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger right">
+                        <span class="material-icons sin"></span>
+                        <span class="material-icons sin"></span>
+                        <span class="material-icons sin"></span>
+                    </a>
+                    <div class="valign-wrapper col xl11">
+                        <ul id="nav-mobile" class="valign-wrapper left col xl9 hide-on-med-and-down">
+                            <li><a class="grey-text text-lighten-2 acolor  N/A transparent" href="">FEATURES</a></li>
+                            <li><a class="grey-text text-lighten-2 acolor  N/A transparent" href="">ASSETS</a></li>
+                            <li><a class="grey-text text-lighten-2 acolor  N/A transparent" href="">BLOG</a></li>
+                            <li><a class="grey-text text-lighten-2 acolor  N/A transparent" href="">DOWNLOAD</a></li>
+                        </ul>
+                        <ul id="nav-mobile" class="valign-wrapper col xl3 hide-on-med-and-down">
+                            <li class="right"><a class="grey-text text-lighten-2 acolor  N/A transparent" href="">LOG IN</a></li>
+                            <li class="right"><a class="btn btn-smally center-align grey-text text-lighten-2 acolor N/A transparent z-depth-0" href="">SIGN UP</a></li>
+                        </ul>
+                    </div>
+                    <ul class="sidenav" id="mobile-demo">
+                    <li><a href="#pading">FEATURES</a></li>
+                    <li><a href="">ASSETS</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">DOWNLOAD</a></li>
                     </ul>
                 </div>
-                <div class="nav-wrapper col xl7 m6 s7">
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a class="grey-text text-lighten-2 acolor  N/A transparent" href="">LOG IN</a></li>
-                        <li><a class="btn btn-smally center-align grey-text text-lighten-2 acolor N/A transparent z-depth-0" href="">SIGN UP</a></li>
-                    </ul>
-                </div>
-            </div>
             </nav>
+            <div class="container row divv">
+                <h1 class="center-align grey-text text-lighten-2 col xl12 m12 s12 section">Design, collaborate, win!</h1>
+                <h6 class="center-align small grey-text text-lighten-2 col xl12 m12 s12">Introducing “Sedna”. A responsive one page website, designed & developed exclusively for Codrops.</h6>
+                <li class="col xl6 m6 s12 sectiona"><a href="" class="btn-large btn-large1 right pink lighten-1 grey-text text-lighten-2 z-depth-0">DOWNLOAD</a></li>
+                <li class="col xl6 m6 s12 sectiona"><a href="" class="btn-large btn-large2 pink-text N/A transparent z-depth-0">LEARN MORE</a></li>
+            </div>
+            <div class="diarrow center-align">
+                <a href="">
+                    <i class="material-icons white-text">chevron_left</i>
+                </a>
+            </div>
         </header>
-      <div class="container row divv">
-            <h1 class="center-align grey-text text-lighten-2 col xl12 m12 s12 section">Design, collaborate, win!</h1>
-            <h6 class="center-align small grey-text text-lighten-2 col xl12 m12 s12">Introducing “Sedna”. A responsive one page website, designed & developed exclusively for Codrops.</h6>
-            <li class="col xl6 m6 s6 sectiona"><a href="" class="btn-large btn-large1 right pink lighten-1 grey-text text-lighten-2 N/A transparent z-depth-0">DOWNLOAD</a></li>
-            <li class="col xl6 m6 s6 sectiona"><a href="" class="btn-large btn-large2 pink-text N/A transparent z-depth-0">LEARN MORE</a></li>
-      </div>
-      <div>
-          <span><i class="fas fa-angle-down"></i></span>
-      </div>
-      
-      
-      
+        <div id="pading" class="scrollspy">
+            <section class="row">
+                <span class="col xl1 m2 s3 center-align"><i class="fas fa-pencil-ruler fa-3x pink-text"></i></span>
+                <article class="row col xl3 m10 s9" class="">
+                    <p>EASILY CUSTOMISED</p>
+                    <p class="grey-text col xl11 m11 s12">Easily customise Sedna to suit your start up, portfolio or product. 
+                        Take advantage of the layered Sketch file and bring your product to 
+                        life.</p>
+                </article>
+                <span class="col xl1 m2 s3 center-align"><i class="far fa-lightbulb fa-3x pink-text"></i></span>
+                <article class="col xl3 m10 s9">
+                    <p>MODERN DESIGN</p>
+                    <p class="grey-text col xl12">Designed with modern trends and techniques in mind, Sedna will help your
+                    product stand out in an already saturated market.</p>
+                </article>
+                <span class="col xl1 m2 s3 center-align"><i class="fas fa-atom fa-3x pink-text"></i></span>
+                <article class="col xl3 m10 s9">
+                    <p>RESPONSIVE DEVELOPMENT</p>
+                    <p class="grey-text col xl12">Built using the latest web technologies like html5, css3, and jQuery, rest 
+                    assured Sedna will look smashing on every device under the sun.</p>
+                </article>
+            </section>
+        </div>
+        <div class="grey lighten-4 row content-iphones">
+            <section class="col xl7 m12 s12">
+                <div data-aos="fade-up"  data-aos-offset="200"></div>
+                <div data-aos="fade-up"  data-aos-offset="300"></div>
+            </section>
+            <section class="col xl5 m12 s12">
+                <div class="container">
+                    <p>Sedna will drive your product forward</p>
+                    <p class="grey-text lighten-1">Present your product, start up, or portfolio in a beautifully modern way. Turn your visitors in to clients.</p>
+                    <article class="row col xl12">
+                        <span class="col xl2 m2 s2"><i class="fas fa-recycle fa-3x pink-text"></i></span>
+                        <div class="col xl10 10  s2">
+                            <p>UNIVERSAL & RESPONSIVE</p>
+                            <p class="grey-text lighten-1">Sedna is universal and will look smashing on any device.</p>
+                        </div>
+                    </article>
+                    <article class="col xl12">
+                        <span class="col xl2 m2 s2"><i class="fas fa-user-alt fa-3x pink-text"></i></span>
+                        <div class="col xl10 10  s2">
+                            <p>USER CENTRIC DESIGN</p>
+                            <p class="grey-text lighten-1">Sedna takes advantage of common design patterns, allowing for a seamless experience for users of all levels.</p>
+                        </div>
+                    </article>
+                    <article class="col xl12">
+                        <span class="col xl2 m2 s2"><i class="fas fa-flask fa-3x pink-text"></i></span>
+                        <div class="col xl10 10  s2">
+                            <p>CLEAN REUSABLE CODE</p>
+                            <p class="grey-text lighten-1">Download and re-use the Sedna open source code for any other project you like.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+        <div>
+            <div class="div-padding">
+                <section class="row">
+                    <div class="col m5 left" style="">
+                        <h6>Designed with Sketch!</h6>
+                        <p class="blue-grey-text text-lighten-2">Easily change/switch/swap every placeholder inside every image on Sedna with the included Sketch files. You’ll have this 
+                            template customised to suit your business in no time!</p>
+                        <p class="blue-grey-text text-lighten-2">Nam vehicula malesuada lectus, interdum fringilla nibh. Duis aliquam vitae metus a pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum augue 
+                            quis augue ornare, eget faucibus felis pharetra. Proin condimentum et leo quis fringilla.</p>
+                        <a class="btn btn-smally2 btn-large2 pink-text N/A transparent z-depth-0">WHAT'S SKETCH?</a>
+                    </div>
+                    <section>
+                            <div data-aos="fade-left" data-aos-offset="300" class="sectionmackbook"></div>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </div>
       
     <footer>
 
     </footer>
-    <script src="materialize/js/materialize.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="materialize/js/materialize.min.js"></script>
+    <script src="materialize/js/main.js"></script>
 </body>
 </html>
